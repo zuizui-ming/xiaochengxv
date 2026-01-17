@@ -1,0 +1,74 @@
+{
+  "name": "user",
+  "title": "用户信息",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "真实姓名",
+      "type": "String"
+    },
+    {
+      "name": "nickName",
+      "title": "昵称",
+      "type": "String"
+    },
+    {
+      "name": "avatarUrl",
+      "title": "头像URL",
+      "type": "Image"
+    },
+    {
+      "name": "type",
+      "title": "用户类型",
+      "type": "String"
+    },
+    {
+      "name": "school",
+      "title": "学校名称",
+      "type": "String"
+    },
+    {
+      "name": "major",
+      "title": "专业",
+      "type": "String"
+    },
+    {
+      "name": "contactMethod",
+      "title": "联系方式",
+      "type": "String"
+    },
+    {
+      "name": "contactInfo",
+      "title": "联系信息",
+      "type": "String"
+    },
+    {
+      "name": "publishedSkills",
+      "title": "发布技能数量",
+      "type": "Number"
+    },
+    {
+      "name": "totalViews",
+      "title": "总浏览量",
+      "type": "Number"
+    },
+    {
+      "name": "avgRating",
+      "title": "平均评分",
+      "type": "Number"
+    },
+    {
+      "name": "totalOrders",
+      "title": "成交订单数",
+      "type": "Number"
+    },
+    {
+      "name": "skillList",
+      "title": "发布的技能列表",
+      "type": "Array",
+      "items": {
+        "type": "Object"
+      }
+    }
+  ]
+}

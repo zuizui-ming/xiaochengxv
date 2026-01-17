@@ -1,0 +1,89 @@
+{
+  "name": "skill",
+  "title": "技能信息",
+  "schemas": [
+    {
+      "name": "skillName",
+      "title": "技能名称",
+      "type": "String"
+    },
+    {
+      "name": "category",
+      "title": "技能分类",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "title": "技能描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "price",
+      "title": "价格",
+      "type": "Number"
+    },
+    {
+      "name": "priceUnit",
+      "title": "计价单位",
+      "type": "String"
+    },
+    {
+      "name": "contactMethod",
+      "title": "联系方式",
+      "type": "String"
+    },
+    {
+      "name": "contactInfo",
+      "title": "联系信息",
+      "type": "String"
+    },
+    {
+      "name": "location",
+      "title": "所在地",
+      "type": "String"
+    },
+    {
+      "name": "publisherName",
+      "title": "发布者名称",
+      "type": "String"
+    },
+    {
+      "name": "publisherId",
+      "title": "发布者ID",
+      "type": "String"
+    },
+    {
+      "name": "avatarUrl",
+      "title": "头像URL",
+      "type": "Image"
+    },
+    {
+      "name": "rating",
+      "title": "评分",
+      "type": "Number"
+    },
+    {
+      "name": "reviewCount",
+      "title": "评价数量",
+      "type": "Number"
+    },
+    {
+      "name": "viewCount",
+      "title": "浏览次数",
+      "type": "Number"
+    },
+    {
+      "name": "createTime",
+      "title": "创建时间",
+      "type": "String"
+    },
+    {
+      "name": "tags",
+      "title": "技能标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    }
+  ]
+}
